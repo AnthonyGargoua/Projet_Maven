@@ -4,13 +4,30 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>Projet_Maven</artifactId>
+    <groupId>fr.diginamic</groupId>
+    <artifactId>premier-projet-maven</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <packaging>jar</packaging>
+
+    <name>Premier Projet Maven</name>
+    <description>Un projet d'apprentissage de Maven et Java</description>
+
+    <developers>
+        <developer>
+            <id>dev-team</id>
+            <name>L'Équipe Fantastique</name>
+            <email>contact@diginamic.fr</email>
+            <organization>Diginamic</organization>
+            <roles>
+                <role>Lead Developer</role>
+                <role>Architect</role>
+            </roles>
+        </developer>
+    </developers>
+
     <properties>
-        <maven.compiler.source>26</maven.compiler.source>
-        <maven.compiler.target>26</maven.compiler.target>
+        <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
